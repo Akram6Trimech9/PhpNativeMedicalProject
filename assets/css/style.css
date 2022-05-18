@@ -1,0 +1,27 @@
+.addadmincard{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* ///gap: 20px; */
+    margin-top: 150px;
+     flex-direction: column;
+    box-shadow: 10px 5px 5px rgb(194, 194, 194);
+    width: 500px;
+    margin-left: 500px;
+ }
+.addadmincard .title{
+    text-align: center;
+     background-color: rgb(110, 110, 110);
+    width: 100%;
+    height: 100% ;
+    font-size: larger;
+    color: aliceblue;
+}
+.addadmincard .forms{
+    max-width: 470px;
+    padding: 10px;
+
+}
+.addadmincard.forms input{
+padding: 20px;
+}
